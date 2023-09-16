@@ -42,7 +42,7 @@ NUCLEI = TENSE_NUCLEI + LAX_NUCLEI
 NASAL_CODAS = ["m", "n", "ŋ"]
 # I leave off voiceless variants to simplify the place checking.
 STOP_CODAS = ["p", "t", "k"]
-CODAS = NASAL_CODAS + STOP_CODAS
+CODAS = ["s"] + NASAL_CODAS + STOP_CODAS
 
 
 # Maps stop onto a homo-organic nasal.
