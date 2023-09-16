@@ -27,8 +27,8 @@ STOPS = VOICELESS_STOPS + VOICED_STOPS
 FRICATIVES = ["f", "s", "h"]
 LIQUID = ["l", "r"]
 # ŋ does not occur word-initially
-PLAIN_NASALS = ["m", "n"]
-SIMPLE_ONSETS = STOPS + ["s"] + FRICATIVES + PLAIN_NASALS
+NASALS = ["m", "n"]
+SIMPLE_ONSETS = STOPS + ["s"] + FRICATIVES + NASALS
 
 # For simplicity, I avoid the low-back vowels.
 # I put aside /ɔɪ/ as it's pretty rare.
@@ -43,15 +43,6 @@ NASAL_CODAS = ["m", "n", "ŋ"]
 # I leave off voiceless variants to simplify the place checking.
 STOP_CODAS = ["p", "t", "k"]
 CODAS = ["s"] + NASAL_CODAS + STOP_CODAS
-
-
-# Maps stop onto a homo-organic nasal.
-STOP_TO_NASAL = {
-    "p": "m",
-    "b": "m",
-    "t": "n",
-    "d": "n",
-}
 
 
 class Error(Exception):
@@ -127,13 +118,14 @@ def _monosyllables() -> Iterator[Monosyllable]:
                 yield Monosyllable(stop + "l", nucleus, coda, "TlVC")
                 yield Monosyllable(stop + "ɹ", nucleus, coda, "TɹVC")
     # Prenasal and postnasal.
-    for stop, nasal in STOP_TO_NASAL.items():
-        for nucleus in NUCLEI:
-            for coda in STOP_CODAS:
-                if stop == coda:
-                    continue
-                yield Monosyllable(stop + nasal, nucleus, coda, "CNVC")
-                yield Monosyllable(nasal + stop, nucleus, coda, "NCVC")
+    for stop in STOPS:
+        for coda in STOP_CODAS:
+            if stop == coda:
+                continue
+            for nasal in NASALS:
+                for nucleus in NUCLEI:
+                    yield Monosyllable(stop + nasal, nucleus, coda, "CNVC")
+                    yield Monosyllable(nasal + stop, nucleus, coda, "NCVC")
 
 
 def main():
