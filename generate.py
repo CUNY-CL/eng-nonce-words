@@ -16,7 +16,7 @@ import citylex
 
 
 MONOSYLLABLES = "monosyllables.tsv"
-BISYLLABLES = "bisyllables.tsv"
+BISYLLABLES = "disyllables.tsv"
 
 
 # Onsets.
@@ -174,7 +174,7 @@ def _monosyllables() -> Iterator[Monosyllable]:
                     yield Monosyllable(nasal + stop, nucleus, coda, "NCVC")
 
 
-def _bisyllables() -> Iterator[Disyllable]:
+def _disyllables() -> Iterator[Disyllable]:
     # We enforce tense v1, lax v2, to get a natural, trochaic weight pattern.
     # CVCCVC.
     for onset1 in SIMPLE_ONSETS_PLUS_S:
@@ -252,13 +252,13 @@ def main():
             ]
         )
         filtered = 0
-        for entry in _bisyllables():
+        for entry in _disyllables():
             if entry.transcription in lexicon:
                 logging.info(f"{entry.transcription} is lexical")
                 filtered += 1
                 continue
             tsv_writer.writerow(entry.line)
-    logging.info(f"{filtered:,} bisyllables filtered")
+    logging.info(f"{filtered:,} disyllables filtered")
 
 
 if __name__ == "__main__":
