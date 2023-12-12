@@ -16,8 +16,19 @@ import citylex
 
 
 MONOSYLLABLES = "monosyllables.tsv"
-BISYLLABLES = "disyllables.tsv"
+DISYLLABLES = "disyllables.tsv"
 
+COLUMNS = [
+    "onset1",
+    "nucleus1",
+    "coda1",
+    "onset2",
+    "nucleus2",
+    "coda2",
+    "shape",
+    "syllable.contact.code",
+    "transcription",
+]
 
 # Onsets.
 VOICELESS_STOPS = ["p", "t", "k"]
@@ -79,7 +90,11 @@ class Monosyllable:
             self.onset,
             self.nucleus,
             self.coda,
+            "",  # onset2
+            "",  # nucleus2
+            "",  # coda2,
             self.shape,
+            "",  # syllable.contact.code,
             self.transcription,
         ]
 
@@ -119,11 +134,9 @@ class Disyllable:
             self.syl1.onset,
             self.syl1.nucleus,
             self.syl1.coda,
-            self.syl1.shape,
             self.syl2.onset,
             self.syl2.nucleus,
             self.syl2.coda,
-            self.syl2.shape,
             self.shape,
             self.syllable_contact_code,
             self.transcription,
@@ -200,7 +213,7 @@ def _disyllables() -> Iterator[Disyllable]:
                     continue
                 syls1 = [
                     Monosyllable(stop1 + "l", nucleus1, coda1, "TlVC"),
-                    Monosyllable(stop1 + "ɹ", nucleus1, coda1, "TrVC"),
+                    Monosyllable(stop1 + "ɹ", nucleus1, coda1, "TɹVC"),
                 ]
                 for onset2 in STOPS_PLUS_S:
                     if stop1 == onset2 or coda1 == onset2:
@@ -223,9 +236,7 @@ def main():
     logging.info(f"{len(lexicon):,} lexicon entries")
     with open(MONOSYLLABLES, "w") as sink:
         tsv_writer = csv.writer(sink, delimiter="\t")
-        tsv_writer.writerow(
-            ["onset", "nucleus", "coda", "shape", "transcription"]
-        )
+        tsv_writer.writerow(COLUMNS)
         filtered = 0
         for entry in _monosyllables():
             if entry.transcription in lexicon:
@@ -234,23 +245,9 @@ def main():
                 continue
             tsv_writer.writerow(entry.line)
     logging.info(f"{filtered:,} monosyllables filtered")
-    with open(BISYLLABLES, "w") as sink:
+    with open(DISYLLABLES, "w") as sink:
         tsv_writer = csv.writer(sink, delimiter="\t")
-        tsv_writer.writerow(
-            [
-                "onset1",
-                "nucleus1",
-                "coda1",
-                "shape1",
-                "onset2",
-                "nucleus2",
-                "coda2",
-                "shape2",
-                "shape",
-                "syllable.contact.code",
-                "transcription",
-            ]
-        )
+        tsv_writer.writerow(COLUMNS)
         filtered = 0
         for entry in _disyllables():
             if entry.transcription in lexicon:
