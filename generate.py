@@ -250,8 +250,18 @@ def main():
         tsv_writer.writerow(COLUMNS)
         filtered = 0
         for entry in _disyllables():
-            if entry.transcription in lexicon:
-                logging.info(f"{entry.transcription} is lexical")
+            # Inefficient surely, but harmless.
+            if any(
+                part in lexicon
+                for part in [
+                    entry.syl1.transcription,
+                    entry.syl2.transcription,
+                    entry.transcription,
+                ]
+            ):
+                logging.info(
+                    f"{entry.transcription} or subsyllable is lexical"
+                )
                 filtered += 1
                 continue
             tsv_writer.writerow(entry.line)

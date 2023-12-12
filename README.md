@@ -6,6 +6,5 @@ To use, run:
 pip install -r requirements.txt
 citylex --wikipron-us && rm -f citylex.tsv
 ./generate.py
-# Annotate for lexicality.
 ./stratify.py
 ```
