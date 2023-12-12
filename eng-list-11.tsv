@@ -1,61 +1,61 @@
 onset1	nucleus1	coda1	onset2	nucleus2	coda2	shape	syllable.contact.code	transcription
 tl	aʊ	m				TlVC		tlaʊm
-d	aɪ	p	s	ɛ	ŋ	CVC.CVC	+OVA	daɪpsɛŋ
-tl	oʊ	k	g	ɛ	t	TlVC.CVC	-OVA	tloʊkgɛt
-m	uː	n	s	ɛ	ŋ	CVC.CVC	+NPA	muːnsɛŋ
-dɹ	eɪ	s	k	ʊ	p	TɹVC.CVC	+OVA	dɹeɪskʊp
+b	aɪ	p	s	ɛ	ŋ	CVC.CVC	+OVA	baɪpsɛŋ
+tl	iː	p	g	ɪ	k	TlVC.CVC	-OVA	tliːpgɪk
+g	ɑ	s	k	ʊ	t	CVC.CVC	+OVA	gɑskʊt
 dɹ	iː	k	t	ɛ	m	TɹVC.CVC	+OVA	dɹiːktɛm
-tɹ	aʊ	n	d	ʊ	k	TɹVC.CVC	+NPA	tɹaʊndʊk
+dl	eɪ	k	g	æ	m	TlVC.CVC	-OVA	dleɪkgæm
+tl	uː	n	b	ɪ	k	TlVC.CVC	-NPA	tluːnbɪk
 dɹ	aɪ	n				TɹVC		dɹaɪn
 dɹ	ʊ	ŋ				TɹVC		dɹʊŋ
-tɹ	aɪ	ŋ	g	ɪ	t	TɹVC.CVC	+NPA	tɹaɪŋgɪt
+tɹ	aɪ	ŋ	g	ɛ	p	TɹVC.CVC	+NPA	tɹaɪŋgɛp
 tl	aʊ	k				TlVC		tlaʊk
 ng	æ	p				NCVC		ngæp
-tɹ	aɪ	ŋ	g	ɛ	p	TɹVC.CVC	+NPA	tɹaɪŋgɛp
+tl	iː	n	g	æ	t	TlVC.CVC	-NPA	tliːngæt
 mb	aʊ	t				NCVC		mbaʊt
 nd	aɪ	t				NCVC		ndaɪt
 pw	æ	s				CwVC		pwæs
+dɹ	eɪ	s	t	ʊ	ŋ	TɹVC.CVC	+OVA	dɹeɪstʊŋ
+d	aɪ	p	s	ɛ	ŋ	CVC.CVC	+OVA	daɪpsɛŋ
+bm	oʊ	t				CNVC		bmoʊt
+tl	eɪ	ŋ	g	ʊ	t	TlVC.CVC	+NPA	tleɪŋgʊt
+tɹ	oʊ	n	g	æ	s	TɹVC.CVC	-NPA	tɹoʊngæs
+t	aʊ	m	p	ʊ	k	CVC.CVC	+NPA	taʊmpʊk
+nb	ɪ	t				NCVC		nbɪt
+t	uː	k	g	ʊ	n	CVC.CVC	-OVA	tuːkgʊn
+st	aʊ	p				sCVC		staʊp
+dɹ	eɪ	s	k	ʊ	p	TɹVC.CVC	+OVA	dɹeɪskʊp
+tl	æ	k				TlVC		tlæk
+s	eɪ	p	d	ʊ	k	CVC.CVC	-OVA	seɪpdʊk
+g	aʊ	k				CVC		gaʊk
+d	eɪ	ŋ	g	æ	p	CVC.CVC	+NPA	deɪŋgæp
+mg	ɛ	p				NCVC		mgɛp
+m	oʊ	ŋ	d	ʊ	m	CVC.CVC	-NPA	moʊŋdʊm
 dl	aɪ	k	s	ʊ	m	TlVC.CVC	+OVA	dlaɪksʊm
 n	ɑ	s	t	ʊ	ŋ	CVC.CVC	+OVA	nɑstʊŋ
-bm	oʊ	t				CNVC		bmoʊt
-s	aʊ	k	g	ʊ	n	CVC.CVC	-OVA	saʊkgʊn
-tl	eɪ	n	k	ʊ	s	TlVC.CVC	-NPA	tleɪnkʊs
-g	uː	n	s	ɛ	ŋ	CVC.CVC	+NPA	guːnsɛŋ
-nb	ɪ	t				NCVC		nbɪt
-p	uː	s	g	ʊ	ŋ	CVC.CVC	-OVA	puːsgʊŋ
-st	aʊ	p				sCVC		staʊp
-dɹ	eɪ	s	t	ʊ	ŋ	TɹVC.CVC	+OVA	dɹeɪstʊŋ
-tl	æ	k				TlVC		tlæk
-g	oʊ	p	d	ʊ	n	CVC.CVC	-OVA	goʊpdʊn
-g	aʊ	k				CVC		gaʊk
-n	oʊ	ŋ	d	ʊ	m	CVC.CVC	-NPA	noʊŋdʊm
-mg	ɛ	p				NCVC		mgɛp
-m	iː	ŋ	p	ɪ	m	CVC.CVC	-NPA	miːŋpɪm
-tɹ	oʊ	n	g	æ	s	TɹVC.CVC	-NPA	tɹoʊngæs
-g	aʊ	k	p	ɛ	m	CVC.CVC	+OVA	gaʊkpɛm
 sk	ʊ	m				sCVC		skʊm
 dɹ	eɪ	ŋ				TɹVC		dɹeɪŋ
 dl	eɪ	s				TlVC		dleɪs
 tl	oʊ	ŋ				TlVC		tloʊŋ
-tl	eɪ	ŋ	g	ʊ	t	TlVC.CVC	+NPA	tleɪŋgʊt
-b	aɪ	p	s	ɛ	ŋ	CVC.CVC	+OVA	baɪpsɛŋ
+tɹ	aʊ	n	d	ʊ	k	TɹVC.CVC	+NPA	tɹaʊndʊk
+p	uː	k	d	ʊ	s	CVC.CVC	-OVA	puːkdʊs
 g	ɑ	n				CVC		gɑn
 dm	iː	p				CNVC		dmiːp
-m	ɑ	s	g	ʊ	m	CVC.CVC	-OVA	mɑsgʊm
+b	aʊ	s	g	ɪ	p	CVC.CVC	-OVA	baʊsgɪp
 g	ɪ	ŋ				CVC		gɪŋ
 km	oʊ	t				CNVC		kmoʊt
-d	eɪ	ŋ	s	ʊ	m	CVC.CVC	-NPA	deɪŋsʊm
+t	iː	ŋ	b	ʊ	m	CVC.CVC	-NPA	tiːŋbʊm
 t	uː	m				CVC		tuːm
 gm	æ	p				CNVC		gmæp
 tɹ	ɑ	s	b	ʊ	m	TɹVC.CVC	-OVA	tɹɑsbʊm
 st	aʊ	ŋ				sCVC		staʊŋ
 pw	ɪ	n				CwVC		pwɪn
-g	ɑ	s	k	ʊ	t	CVC.CVC	+OVA	gɑskʊt
-d	eɪ	ŋ	g	æ	p	CVC.CVC	+NPA	deɪŋgæp
+g	aʊ	k	p	ɛ	m	CVC.CVC	+OVA	gaʊkpɛm
+g	uː	n	s	ɛ	ŋ	CVC.CVC	+NPA	guːnsɛŋ
 d	oʊ	t				CVC		doʊt
-n	aʊ	k	d	ʊ	n	CVC.CVC	-OVA	naʊkdʊn
-t	aʊ	m	p	ʊ	k	CVC.CVC	+NPA	taʊmpʊk
-b	aʊ	ŋ	p	ʊ	n	CVC.CVC	-NPA	baʊŋpʊn
+tɹ	aɪ	ŋ	g	ɪ	t	TɹVC.CVC	+NPA	tɹaɪŋgɪt
+m	uː	n	s	ɛ	ŋ	CVC.CVC	+NPA	muːnsɛŋ
+k	uː	ŋ	d	ʊ	n	CVC.CVC	-NPA	kuːŋdʊn
 sk	eɪ	m				sCVC		skeɪm
 sp	oʊ	t				sCVC		spoʊt
 gn	uː	t				CNVC		gnuːt

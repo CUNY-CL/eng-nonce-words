@@ -7,13 +7,39 @@ list:
 * 30 of the words are monosylalbles; 30 are disyllables.
 * 30 of the words are expected to be well-formed; 30 of the words are
   expected to be ill-formed.
+
+The stratification is rather complex.
+
+To balance out grammaticality of monosyllables, we select:
+
+x 5 CVC examples
+x 5 sCVC examples
+? 3 CwVC examples
+x 2 TɹVC examples
+* 5 TlVC examples
+* 5 NCVC examples
+* 5 CNVC examples
+
+For disyllables, we select:
+
+x 5 CVC.CVC, +OVA examples
+x 4 CVC.CVC, +NPA examples
+x 3 TɹVC, +OVA examples
+x 3 TɹVC, +NPA examples
+* 4 CVC.CVC, -OVA examples
+* 3 CVC.CVC, -NPA examples
+* 1 TɹVC, -OVA example
+* 1 TɹVC, -NPA example
+* 1 TlVC, +OVA example
+* 2 TlVC, -OVA examples
+* 1 TlVC, +NPA example
+* 2 TlVC, -NPA examples
 """
 
 
 import collections
 import csv
 import random
-import re
 import string
 
 from typing import Dict, Iterator, List, Tuple
@@ -60,14 +86,28 @@ def main() -> None:
             size = 2
         elif shape == "TɹVC":
             size = 3
-        elif re.fullmatch(r"CVC.CVC, .NPA", shape):  # 8 total.
+        elif shape == "CVC.CVC, +NPA":
             size = 4
-        elif re.fullmatch(r"TɹVC.CVC, \+.+", shape):  # 6 total.
+        elif shape == "CVC.CVC, -OVA":
+            size = 4
+        elif shape == "CVC.CVC, -NPA":
             size = 3
-        elif re.fullmatch(r"TɹVC.CVC, \-.+", shape):  # 2 total.
+        elif shape == "TɹVC.CVC, +OVA":
+            size = 3
+        elif shape == "TɹVC.CVC, +NPA":
+            size = 3
+        elif shape == "TɹVC.CVC, -OVA":
             size = 1
-        elif re.fullmatch(r"TlVC.CVC, ..+", shape):  # 4 total.
+        elif shape == "TɹVC.CVC, -NPA":
             size = 1
+        elif shape == "TlVC.CVC, +OVA":
+            size = 1
+        elif shape == "TlVC.CVC, -OVA":
+            size = 2
+        elif shape == "TlVC.CVC, +NPA":
+            size = 1
+        elif shape == "TlVC.CVC, -NPA":
+            size = 2
         else:
             size = 5
         # This will fail if N_LISTS is larger than can be sustained.
@@ -84,6 +124,7 @@ def main() -> None:
                 sink, delimiter="\t", fieldnames=row.keys()
             )
             writer.writeheader()
+            assert len(lst) == 60, len(lst)
             writer.writerows(lst)
 
 
