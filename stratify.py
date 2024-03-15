@@ -4,7 +4,7 @@
 This produces lsts of 60 words with the same gross properties. For each
 list:
 
-* 30 of the words are monosylalbles; 30 are disyllables.
+* 30 of the words are monosyllables; 30 are disyllables.
 * 30 of the words are expected to be well-formed; 30 of the words are
   expected to be ill-formed.
 
@@ -12,28 +12,24 @@ The stratification is rather complex.
 
 To balance out grammaticality of monosyllables, we select:
 
-x 5 CVC examples
-x 5 sCVC examples
-? 3 CwVC examples
-x 2 TɹVC examples
-* 5 TlVC examples
-* 5 NCVC examples
-* 5 CNVC examples
+ x 5  CVC examples
+ x 4 sCVC examples
+ ? 4 CwVC examples
+ x 2 TɹVC examples
+ * 5 TlVC examples
+ * 5 NCVC examples
+ * 5 CNVC examples
 
 For disyllables, we select:
 
-x 5 CVC.CVC, +OVA examples
-x 4 CVC.CVC, +NPA examples
-x 3 TɹVC, +OVA examples
-x 3 TɹVC, +NPA examples
-* 4 CVC.CVC, -OVA examples
-* 3 CVC.CVC, -NPA examples
-* 1 TɹVC, -OVA example
-* 1 TɹVC, -NPA example
-* 1 TlVC, +OVA example
-* 2 TlVC, -OVA examples
-* 1 TlVC, +NPA example
-* 2 TlVC, -NPA examples
+ x 5  CVC.CVC, +OVA examples
+ x 4  CVC.CVC, +NPA examples
+ x 3 TɹVC.CVC, +OVA examples
+ x 3 TɹVC.CVC, +NPA examples
+ * 4  CVC.CVC, -OVA examples
+ * 4  CVC.CVC, -NPA examples
+** 4 TlVC.CVC, -OVA examples
+** 3 TlVC.CVC, -NPA examples
 """
 
 
@@ -82,34 +78,38 @@ def main() -> None:
         elist = list(entries)
         # Special cases for sizing; it all adds up to 60.
         # We give slight preference for querying OVA over NPA.
-        if shape == "CwVC":
-            size = 2
+        if shape == "CVC":
+            size = 5
+        elif shape == "sCVC":
+            size = 4
+        elif shape == "CwVC":
+            size = 4
         elif shape == "TɹVC":
-            size = 3
+            size = 2
+        elif shape == "TlVC":
+            size = 5
+        elif shape == "NCVC":
+            size = 5
+        elif shape == "CNVC":
+            size = 5
+        elif shape == "CVC.CVC, +OVA":
+            size = 5
         elif shape == "CVC.CVC, +NPA":
             size = 4
-        elif shape == "CVC.CVC, -OVA":
-            size = 4
-        elif shape == "CVC.CVC, -NPA":
-            size = 3
         elif shape == "TɹVC.CVC, +OVA":
             size = 3
         elif shape == "TɹVC.CVC, +NPA":
             size = 3
-        elif shape == "TɹVC.CVC, -OVA":
-            size = 1
-        elif shape == "TɹVC.CVC, -NPA":
-            size = 1
-        elif shape == "TlVC.CVC, +OVA":
-            size = 1
+        elif shape == "CVC.CVC, -OVA":
+            size = 4
+        elif shape == "CVC.CVC, -NPA":
+            size = 4
         elif shape == "TlVC.CVC, -OVA":
-            size = 2
-        elif shape == "TlVC.CVC, +NPA":
-            size = 1
+            size = 4
         elif shape == "TlVC.CVC, -NPA":
-            size = 2
+            size = 3
         else:
-            size = 5
+            continue
         # This will fail if N_LISTS is larger than can be sustained.
         assert len(elist) >= size * N_LISTS, (shape, len(elist))
         random.shuffle(elist)
