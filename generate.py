@@ -8,6 +8,7 @@ according to our assumptions about grammaticality.
 
 import csv
 import dataclasses
+import itertools
 import logging
 
 from typing import Iterator, List, Set
@@ -188,10 +189,10 @@ def _monosyllables() -> Iterator[Monosyllable]:
 
 
 def _disyllables() -> Iterator[Disyllable]:
-    # We enforce tense v1, lax v2, to get a natural, trochaic weight pattern.
-    # CVCCVC.
-    for onset1 in SIMPLE_ONSETS_PLUS_S:
-        for nucleus1 in TENSE_NUCLEI:
+    # We enforce lax v1, lax v2.
+    for nucleus1, nucleus2 in itertools.permutations(LAX_NUCLEI, 2):
+        # CVCCVC.
+        for onset1 in SIMPLE_ONSETS_PLUS_S:
             for coda1 in SIMPLE_CODAS_PLUS_S:
                 if onset1 == coda1:
                     continue
@@ -199,15 +200,13 @@ def _disyllables() -> Iterator[Disyllable]:
                 for onset2 in STOPS_PLUS_S:
                     if onset1 == onset2 or coda1 == onset2:
                         continue
-                    for nucleus2 in LAX_NUCLEI:
-                        for coda2 in SIMPLE_CODAS_PLUS_S:
-                            if coda1 == coda2:
-                                continue
-                            syl2 = Monosyllable(onset2, nucleus2, coda2, "CVC")
-                            yield Disyllable(syl1, syl2)
-    # T[liquid]VCCVC.
-    for stop1 in ["t", "d"]:
-        for nucleus1 in TENSE_NUCLEI:
+                    for coda2 in SIMPLE_CODAS_PLUS_S:
+                        if coda1 == coda2:
+                            continue
+                        syl2 = Monosyllable(onset2, nucleus2, coda2, "CVC")
+                        yield Disyllable(syl1, syl2)
+        # T[liquid]VCCVC.
+        for stop1 in ["t", "d"]:
             for coda1 in SIMPLE_CODAS_PLUS_S:
                 if stop1 == coda1:
                     continue
@@ -218,13 +217,12 @@ def _disyllables() -> Iterator[Disyllable]:
                 for onset2 in STOPS_PLUS_S:
                     if stop1 == onset2 or coda1 == onset2:
                         continue
-                    for nucleus2 in LAX_NUCLEI:
-                        for coda2 in SIMPLE_CODAS_PLUS_S:
-                            if coda1 == coda2:
-                                continue
-                            syl2 = Monosyllable(onset2, nucleus2, coda2, "CVC")
-                            for syl1 in syls1:
-                                yield Disyllable(syl1, syl2)
+                    for coda2 in SIMPLE_CODAS_PLUS_S:
+                        if coda1 == coda2:
+                            continue
+                        syl2 = Monosyllable(onset2, nucleus2, coda2, "CVC")
+                        for syl1 in syls1:
+                            yield Disyllable(syl1, syl2)
 
 
 def main():

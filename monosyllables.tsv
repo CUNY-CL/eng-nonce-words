@@ -1,13 +1,11 @@
 onset1	nucleus1	coda1	onset2	nucleus2	coda2	shape	syllable.contact.code	transcription
 p	iː	m				CVC		piːm
-p	iː	ŋ				CVC		piːŋ
 p	uː	m				CVC		puːm
 p	uː	ŋ				CVC		puːŋ
 p	uː	t				CVC		puːt
 p	uː	k				CVC		puːk
 p	uː	s				CVC		puːs
 p	eɪ	m				CVC		peɪm
-p	eɪ	ŋ				CVC		peɪŋ
 p	eɪ	k				CVC		peɪk
 p	oʊ	m				CVC		poʊm
 p	oʊ	ŋ				CVC		poʊŋ
@@ -29,14 +27,12 @@ p	ʊ	ŋ				CVC		pʊŋ
 p	ʊ	k				CVC		pʊk
 p	ɛ	m				CVC		pɛm
 p	ɛ	s				CVC		pɛs
-t	iː	ŋ				CVC		tiːŋ
+p	æ	ŋ				CVC		pæŋ
 t	iː	s				CVC		tiːs
 t	uː	m				CVC		tuːm
 t	uː	ŋ				CVC		tuːŋ
-t	uː	p				CVC		tuːp
 t	uː	k				CVC		tuːk
 t	uː	s				CVC		tuːs
-t	eɪ	ŋ				CVC		teɪŋ
 t	eɪ	p				CVC		teɪp
 t	eɪ	s				CVC		teɪs
 t	oʊ	ŋ				CVC		toʊŋ
@@ -66,7 +62,6 @@ k	eɪ	ŋ				CVC		keɪŋ
 k	oʊ	ŋ				CVC		koʊŋ
 k	oʊ	p				CVC		koʊp
 k	oʊ	s				CVC		koʊs
-k	ɑ	ŋ				CVC		kɑŋ
 k	aɪ	ŋ				CVC		kaɪŋ
 k	aɪ	s				CVC		kaɪs
 k	aʊ	m				CVC		kaʊm
@@ -82,21 +77,16 @@ k	ɛ	ŋ				CVC		kɛŋ
 k	ɛ	p				CVC		kɛp
 k	ɛ	s				CVC		kɛs
 k	æ	s				CVC		kæs
-b	iː	ŋ				CVC		biːŋ
 b	iː	k				CVC		biːk
 b	iː	s				CVC		biːs
 b	uː	m				CVC		buːm
 b	uː	ŋ				CVC		buːŋ
 b	uː	t				CVC		buːt
-b	uː	k				CVC		buːk
-b	eɪ	m				CVC		beɪm
 b	eɪ	ŋ				CVC		beɪŋ
 b	eɪ	p				CVC		beɪp
 b	oʊ	ŋ				CVC		boʊŋ
 b	oʊ	p				CVC		boʊp
-b	ɑ	ŋ				CVC		bɑŋ
 b	ɑ	p				CVC		bɑp
-b	ɑ	k				CVC		bɑk
 b	ɑ	s				CVC		bɑs
 b	aɪ	m				CVC		baɪm
 b	aɪ	ŋ				CVC		baɪŋ
@@ -107,17 +97,14 @@ b	aʊ	p				CVC		baʊp
 b	aʊ	s				CVC		baʊs
 b	ɪ	m				CVC		bɪm
 b	ɪ	p				CVC		bɪp
-b	ɪ	k				CVC		bɪk
 b	ʊ	m				CVC		bʊm
 b	ʊ	n				CVC		bʊn
 b	ʊ	p				CVC		bʊp
 b	ɛ	m				CVC		bɛm
 b	ɛ	ŋ				CVC		bɛŋ
 b	ɛ	p				CVC		bɛp
-d	iː	ŋ				CVC		diːŋ
 d	iː	t				CVC		diːt
 d	uː	ŋ				CVC		duːŋ
-d	eɪ	ŋ				CVC		deɪŋ
 d	eɪ	p				CVC		deɪp
 d	eɪ	k				CVC		deɪk
 d	oʊ	m				CVC		doʊm
@@ -126,7 +113,6 @@ d	oʊ	ŋ				CVC		doʊŋ
 d	oʊ	p				CVC		doʊp
 d	oʊ	t				CVC		doʊt
 d	oʊ	k				CVC		doʊk
-d	ɑ	ŋ				CVC		dɑŋ
 d	ɑ	p				CVC		dɑp
 d	ɑ	s				CVC		dɑs
 d	aɪ	ŋ				CVC		daɪŋ
@@ -135,6 +121,7 @@ d	aʊ	m				CVC		daʊm
 d	aʊ	ŋ				CVC		daʊŋ
 d	aʊ	p				CVC		daʊp
 d	aʊ	k				CVC		daʊk
+d	ɪ	ŋ				CVC		dɪŋ
 d	ʊ	m				CVC		dʊm
 d	ʊ	n				CVC		dʊn
 d	ʊ	ŋ				CVC		dʊŋ
@@ -254,7 +241,6 @@ n	uː	ŋ				CVC		nuːŋ
 n	uː	p				CVC		nuːp
 n	uː	t				CVC		nuːt
 n	uː	k				CVC		nuːk
-n	eɪ	ŋ				CVC		neɪŋ
 n	oʊ	ŋ				CVC		noʊŋ
 n	oʊ	k				CVC		noʊk
 n	oʊ	s				CVC		noʊs
@@ -281,12 +267,10 @@ n	ʊ	s				CVC		nʊs
 n	ɛ	m				CVC		nɛm
 n	ɛ	ŋ				CVC		nɛŋ
 n	æ	m				CVC		næm
+n	æ	ŋ				CVC		næŋ
 n	æ	s				CVC		næs
-s	iː	ŋ				CVC		siːŋ
 s	uː	m				CVC		suːm
-s	uː	n				CVC		suːn
 s	uː	ŋ				CVC		suːŋ
-s	uː	p				CVC		suːp
 s	eɪ	ŋ				CVC		seɪŋ
 s	eɪ	p				CVC		seɪp
 s	oʊ	m				CVC		soʊm
@@ -295,7 +279,6 @@ s	oʊ	t				CVC		soʊt
 s	ɑ	n				CVC		sɑn
 s	ɑ	p				CVC		sɑp
 s	ɑ	t				CVC		sɑt
-s	aɪ	m				CVC		saɪm
 s	aɪ	ŋ				CVC		saɪŋ
 s	aʊ	m				CVC		saʊm
 s	aʊ	n				CVC		saʊn
@@ -363,7 +346,6 @@ st	aʊ	n				sCVC		staʊn
 st	aʊ	ŋ				sCVC		staʊŋ
 st	aʊ	p				sCVC		staʊp
 st	aʊ	k				sCVC		staʊk
-st	ɪ	m				sCVC		stɪm
 st	ɪ	n				sCVC		stɪn
 st	ʊ	m				sCVC		stʊm
 st	ʊ	n				sCVC		stʊn
@@ -377,7 +359,6 @@ sk	uː	m				sCVC		skuːm
 sk	uː	ŋ				sCVC		skuːŋ
 sk	eɪ	m				sCVC		skeɪm
 sk	eɪ	ŋ				sCVC		skeɪŋ
-sk	eɪ	p				sCVC		skeɪp
 sk	oʊ	m				sCVC		skoʊm
 sk	oʊ	ŋ				sCVC		skoʊŋ
 sk	oʊ	t				sCVC		skoʊt
@@ -563,7 +544,6 @@ tɹ	iː	s				TɹVC		tɹiːs
 tl	uː	m				TlVC		tluːm
 tɹ	uː	m				TɹVC		tɹuːm
 tl	uː	n				TlVC		tluːn
-tɹ	uː	n				TɹVC		tɹuːn
 tl	uː	ŋ				TlVC		tluːŋ
 tɹ	uː	ŋ				TɹVC		tɹuːŋ
 tl	uː	p				TlVC		tluːp
