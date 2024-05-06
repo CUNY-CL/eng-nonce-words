@@ -144,6 +144,10 @@ class Disyllable:
         ]
 
 
+def _borowsky_test(monosyllable: Monosyllable) -> bool:
+    return monosyllable.nucleus in TENSE_NUCLEI and monosyllable.coda == "ŋ"
+
+
 def _monosyllables() -> Iterator[Monosyllable]:
     # CVC.
     for onset in SIMPLE_ONSETS_PLUS_S:
@@ -237,6 +241,8 @@ def main():
         tsv_writer.writerow(COLUMNS)
         filtered = 0
         for entry in _monosyllables():
+            if _borowsky_test(entry):
+                continue
             if entry.transcription in lexicon:
                 logging.info(f"{entry.transcription} is lexical")
                 filtered += 1
