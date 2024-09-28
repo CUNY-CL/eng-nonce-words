@@ -10,7 +10,6 @@ p	oʊ	m				CVC		poʊm
 p	oʊ	s				CVC		poʊs
 p	ɑ	n				CVC		pɑn
 p	ɑ	s				CVC		pɑs
-p	aɪ	m				CVC		paɪm
 p	aʊ	m				CVC		paʊm
 p	aʊ	n				CVC		paʊn
 p	aʊ	t				CVC		paʊt
@@ -43,7 +42,6 @@ t	ʊ	ŋ				CVC		tʊŋ
 t	ʊ	s				CVC		tʊs
 t	ɛ	m				CVC		tɛm
 t	ɛ	ŋ				CVC		tɛŋ
-t	ɛ	p				CVC		tɛp
 k	iː	m				CVC		kiːm
 k	iː	s				CVC		kiːs
 k	uː	n				CVC		kuːn
@@ -76,12 +74,10 @@ b	aɪ	p				CVC		baɪp
 b	aʊ	m				CVC		baʊm
 b	aʊ	p				CVC		baʊp
 b	aʊ	s				CVC		baʊs
-b	ɪ	m				CVC		bɪm
 b	ɪ	p				CVC		bɪp
 b	ʊ	m				CVC		bʊm
 b	ʊ	n				CVC		bʊn
 b	ʊ	p				CVC		bʊp
-b	ɛ	m				CVC		bɛm
 b	ɛ	ŋ				CVC		bɛŋ
 b	ɛ	p				CVC		bɛp
 d	iː	t				CVC		diːt
@@ -91,11 +87,8 @@ d	oʊ	m				CVC		doʊm
 d	oʊ	n				CVC		doʊn
 d	oʊ	p				CVC		doʊp
 d	oʊ	t				CVC		doʊt
-d	oʊ	k				CVC		doʊk
 d	ɑ	p				CVC		dɑp
 d	ɑ	s				CVC		dɑs
-d	aɪ	p				CVC		daɪp
-d	aʊ	m				CVC		daʊm
 d	aʊ	p				CVC		daʊp
 d	aʊ	k				CVC		daʊk
 d	ɪ	ŋ				CVC		dɪŋ
@@ -111,13 +104,11 @@ d	ɛ	s				CVC		dɛs
 g	iː	m				CVC		giːm
 g	iː	n				CVC		giːn
 g	iː	p				CVC		giːp
-g	iː	t				CVC		giːt
 g	iː	k				CVC		giːk
 g	iː	s				CVC		giːs
 g	uː	m				CVC		guːm
 g	uː	n				CVC		guːn
 g	uː	p				CVC		guːp
-g	uː	t				CVC		guːt
 g	uː	k				CVC		guːk
 g	uː	s				CVC		guːs
 g	eɪ	m				CVC		geɪm
@@ -160,7 +151,6 @@ g	ɪ	s				CVC		gɪs
 g	ʊ	m				CVC		gʊm
 g	ʊ	n				CVC		gʊn
 g	ʊ	ŋ				CVC		gʊŋ
-g	ʊ	p				CVC		gʊp
 g	ʊ	t				CVC		gʊt
 g	ʊ	k				CVC		gʊk
 g	ʊ	s				CVC		gʊs
@@ -269,28 +259,22 @@ sp	ʊ	ŋ				sCVC		spʊŋ
 sp	ʊ	t				sCVC		spʊt
 sp	ʊ	k				sCVC		spʊk
 sp	ɛ	m				sCVC		spɛm
-sp	ɛ	n				sCVC		spɛn
 sp	ɛ	ŋ				sCVC		spɛŋ
 st	iː	m				sCVC		stiːm
 st	uː	m				sCVC		stuːm
-st	uː	n				sCVC		stuːn
 st	uː	k				sCVC		stuːk
 st	eɪ	m				sCVC		steɪm
 st	eɪ	p				sCVC		steɪp
 st	oʊ	m				sCVC		stoʊm
 st	oʊ	p				sCVC		stoʊp
-st	ɑ	m				sCVC		stɑm
 st	ɑ	n				sCVC		stɑn
-st	aɪ	k				sCVC		staɪk
 st	aʊ	m				sCVC		staʊm
 st	aʊ	n				sCVC		staʊn
 st	aʊ	p				sCVC		staʊp
-st	aʊ	k				sCVC		staʊk
 st	ɪ	n				sCVC		stɪn
 st	ʊ	m				sCVC		stʊm
 st	ʊ	n				sCVC		stʊn
 st	ʊ	ŋ				sCVC		stʊŋ
-st	ʊ	p				sCVC		stʊp
 st	ɛ	n				sCVC		stɛn
 st	ɛ	ŋ				sCVC		stɛŋ
 sk	iː	p				sCVC		skiːp
@@ -301,7 +285,6 @@ sk	oʊ	t				sCVC		skoʊt
 sk	ɑ	m				sCVC		skɑm
 sk	ɑ	p				sCVC		skɑp
 sk	aɪ	m				sCVC		skaɪm
-sk	aɪ	n				sCVC		skaɪn
 sk	aʊ	m				sCVC		skaʊm
 sk	aʊ	n				sCVC		skaʊn
 sk	aʊ	p				sCVC		skaʊp
@@ -310,7 +293,6 @@ sk	ɪ	t				sCVC		skɪt
 sk	ʊ	m				sCVC		skʊm
 sk	ʊ	n				sCVC		skʊn
 sk	ʊ	ŋ				sCVC		skʊŋ
-sk	ʊ	p				sCVC		skʊp
 sk	ʊ	t				sCVC		skʊt
 sk	ɛ	m				sCVC		skɛm
 sk	ɛ	ŋ				sCVC		skɛŋ
@@ -326,7 +308,6 @@ pw	ʊ	m				CwVC		pwʊm
 pw	ʊ	n				CwVC		pwʊn
 pw	ʊ	ŋ				CwVC		pwʊŋ
 pw	ʊ	t				CwVC		pwʊt
-pw	ʊ	k				CwVC		pwʊk
 pw	ʊ	s				CwVC		pwʊs
 pw	ɛ	m				CwVC		pwɛm
 pw	ɛ	n				CwVC		pwɛn
@@ -334,7 +315,6 @@ pw	ɛ	ŋ				CwVC		pwɛŋ
 pw	ɛ	t				CwVC		pwɛt
 pw	ɛ	k				CwVC		pwɛk
 pw	ɛ	s				CwVC		pwɛs
-pw	æ	m				CwVC		pwæm
 pw	æ	n				CwVC		pwæn
 pw	æ	ŋ				CwVC		pwæŋ
 pw	æ	t				CwVC		pwæt
@@ -352,7 +332,6 @@ tw	ʊ	p				CwVC		twʊp
 tw	ʊ	k				CwVC		twʊk
 tw	ʊ	s				CwVC		twʊs
 tw	ɛ	m				CwVC		twɛm
-tw	ɛ	n				CwVC		twɛn
 tw	ɛ	ŋ				CwVC		twɛŋ
 tw	ɛ	p				CwVC		twɛp
 tw	ɛ	k				CwVC		twɛk
@@ -361,7 +340,6 @@ tw	æ	m				CwVC		twæm
 tw	æ	n				CwVC		twæn
 tw	æ	p				CwVC		twæp
 tw	æ	k				CwVC		twæk
-tw	æ	s				CwVC		twæs
 kw	ɪ	ŋ				CwVC		kwɪŋ
 kw	ʊ	m				CwVC		kwʊm
 kw	ʊ	n				CwVC		kwʊn
@@ -393,7 +371,6 @@ bw	ʊ	ŋ				CwVC		bwʊŋ
 bw	ʊ	p				CwVC		bwʊp
 bw	ʊ	t				CwVC		bwʊt
 bw	ʊ	k				CwVC		bwʊk
-bw	ʊ	s				CwVC		bwʊs
 bw	ɛ	m				CwVC		bwɛm
 bw	ɛ	n				CwVC		bwɛn
 bw	ɛ	ŋ				CwVC		bwɛŋ
@@ -414,7 +391,6 @@ dw	ɪ	ŋ				CwVC		dwɪŋ
 dw	ɪ	p				CwVC		dwɪp
 dw	ɪ	t				CwVC		dwɪt
 dw	ɪ	k				CwVC		dwɪk
-dw	ɪ	s				CwVC		dwɪs
 dw	ʊ	m				CwVC		dwʊm
 dw	ʊ	n				CwVC		dwʊn
 dw	ʊ	ŋ				CwVC		dwʊŋ
@@ -446,7 +422,6 @@ gw	ʊ	m				CwVC		gwʊm
 gw	ʊ	n				CwVC		gwʊn
 gw	ʊ	ŋ				CwVC		gwʊŋ
 gw	ʊ	p				CwVC		gwʊp
-gw	ʊ	t				CwVC		gwʊt
 gw	ʊ	k				CwVC		gwʊk
 gw	ʊ	s				CwVC		gwʊs
 gw	ɛ	m				CwVC		gwɛm
@@ -462,7 +437,6 @@ gw	æ	ŋ				CwVC		gwæŋ
 gw	æ	p				CwVC		gwæp
 gw	æ	t				CwVC		gwæt
 gw	æ	k				CwVC		gwæk
-gw	æ	s				CwVC		gwæs
 tl	iː	m				TlVC		tliːm
 tɹ	iː	m				TɹVC		tɹiːm
 tl	iː	n				TlVC		tliːn
@@ -483,10 +457,8 @@ tl	eɪ	m				TlVC		tleɪm
 tɹ	eɪ	m				TɹVC		tɹeɪm
 tl	eɪ	n				TlVC		tleɪn
 tl	eɪ	p				TlVC		tleɪp
-tl	eɪ	k				TlVC		tleɪk
 tɹ	eɪ	k				TɹVC		tɹeɪk
 tl	eɪ	s				TlVC		tleɪs
-tl	oʊ	m				TlVC		tloʊm
 tɹ	oʊ	m				TɹVC		tɹoʊm
 tl	oʊ	n				TlVC		tloʊn
 tɹ	oʊ	n				TɹVC		tɹoʊn
@@ -495,7 +467,6 @@ tl	oʊ	k				TlVC		tloʊk
 tl	oʊ	s				TlVC		tloʊs
 tɹ	oʊ	s				TɹVC		tɹoʊs
 tl	ɑ	m				TlVC		tlɑm
-tɹ	ɑ	m				TɹVC		tɹɑm
 tl	ɑ	n				TlVC		tlɑn
 tɹ	ɑ	n				TɹVC		tɹɑn
 tl	ɑ	p				TlVC		tlɑp
@@ -508,7 +479,6 @@ tl	aɪ	m				TlVC		tlaɪm
 tɹ	aɪ	m				TɹVC		tɹaɪm
 tl	aɪ	n				TlVC		tlaɪn
 tɹ	aɪ	n				TɹVC		tɹaɪn
-tl	aɪ	p				TlVC		tlaɪp
 tl	aɪ	k				TlVC		tlaɪk
 tl	aɪ	s				TlVC		tlaɪs
 tl	aʊ	m				TlVC		tlaʊm
@@ -526,7 +496,6 @@ tl	ɪ	n				TlVC		tlɪn
 tɹ	ɪ	n				TɹVC		tɹɪn
 tl	ɪ	ŋ				TlVC		tlɪŋ
 tl	ɪ	p				TlVC		tlɪp
-tl	ɪ	k				TlVC		tlɪk
 tl	ɪ	s				TlVC		tlɪs
 tl	ʊ	m				TlVC		tlʊm
 tɹ	ʊ	m				TɹVC		tɹʊm
@@ -540,11 +509,9 @@ tl	ʊ	k				TlVC		tlʊk
 tɹ	ʊ	k				TɹVC		tɹʊk
 tl	ʊ	s				TlVC		tlʊs
 tɹ	ʊ	s				TɹVC		tɹʊs
-tl	ɛ	m				TlVC		tlɛm
 tɹ	ɛ	m				TɹVC		tɹɛm
 tl	ɛ	n				TlVC		tlɛn
 tl	ɛ	ŋ				TlVC		tlɛŋ
-tɹ	ɛ	ŋ				TɹVC		tɹɛŋ
 tl	ɛ	p				TlVC		tlɛp
 tɹ	ɛ	p				TɹVC		tɹɛp
 tl	ɛ	k				TlVC		tlɛk
@@ -556,7 +523,6 @@ tɹ	æ	ŋ				TɹVC		tɹæŋ
 tl	æ	p				TlVC		tlæp
 tl	æ	k				TlVC		tlæk
 tl	æ	s				TlVC		tlæs
-dl	iː	m				TlVC		dliːm
 dl	iː	n				TlVC		dliːn
 dɹ	iː	n				TɹVC		dɹiːn
 dl	iː	p				TlVC		dliːp
@@ -589,7 +555,6 @@ dl	eɪ	s				TlVC		dleɪs
 dɹ	eɪ	s				TɹVC		dɹeɪs
 dl	oʊ	m				TlVC		dloʊm
 dɹ	oʊ	m				TɹVC		dɹoʊm
-dl	oʊ	n				TlVC		dloʊn
 dl	oʊ	p				TlVC		dloʊp
 dɹ	oʊ	p				TɹVC		dɹoʊp
 dl	oʊ	t				TlVC		dloʊt
@@ -598,7 +563,6 @@ dl	oʊ	k				TlVC		dloʊk
 dɹ	oʊ	k				TɹVC		dɹoʊk
 dl	oʊ	s				TlVC		dloʊs
 dɹ	oʊ	s				TɹVC		dɹoʊs
-dl	ɑ	m				TlVC		dlɑm
 dl	ɑ	n				TlVC		dlɑn
 dl	ɑ	p				TlVC		dlɑp
 dl	ɑ	t				TlVC		dlɑt
@@ -609,8 +573,6 @@ dl	ɑ	s				TlVC		dlɑs
 dɹ	ɑ	s				TɹVC		dɹɑs
 dl	aɪ	m				TlVC		dlaɪm
 dɹ	aɪ	m				TɹVC		dɹaɪm
-dl	aɪ	n				TlVC		dlaɪn
-dɹ	aɪ	n				TɹVC		dɹaɪn
 dl	aɪ	p				TlVC		dlaɪp
 dɹ	aɪ	p				TɹVC		dɹaɪp
 dl	aɪ	t				TlVC		dlaɪt
@@ -663,14 +625,12 @@ dl	ɛ	ŋ				TlVC		dlɛŋ
 dl	ɛ	p				TlVC		dlɛp
 dɹ	ɛ	p				TɹVC		dɹɛp
 dl	ɛ	t				TlVC		dlɛt
-dɹ	ɛ	t				TɹVC		dɹɛt
 dl	ɛ	k				TlVC		dlɛk
 dɹ	ɛ	k				TɹVC		dɹɛk
 dl	ɛ	s				TlVC		dlɛs
 dl	æ	m				TlVC		dlæm
 dl	æ	n				TlVC		dlæn
 dɹ	æ	n				TɹVC		dɹæn
-dl	æ	ŋ				TlVC		dlæŋ
 dɹ	æ	ŋ				TɹVC		dɹæŋ
 dl	æ	p				TlVC		dlæp
 dl	æ	t				TlVC		dlæt
@@ -682,7 +642,6 @@ pm	iː	t				CNVC		pmiːt
 mp	iː	t				NCVC		mpiːt
 pm	uː	t				CNVC		pmuːt
 mp	uː	t				NCVC		mpuːt
-pm	eɪ	t				CNVC		pmeɪt
 mp	eɪ	t				NCVC		mpeɪt
 pm	oʊ	t				CNVC		pmoʊt
 mp	oʊ	t				NCVC		mpoʊt
@@ -690,7 +649,6 @@ pm	ɑ	t				CNVC		pmɑt
 mp	ɑ	t				NCVC		mpɑt
 pm	aɪ	t				CNVC		pmaɪt
 mp	aɪ	t				NCVC		mpaɪt
-pm	aʊ	t				CNVC		pmaʊt
 mp	aʊ	t				NCVC		mpaʊt
 pm	ɪ	t				CNVC		pmɪt
 mp	ɪ	t				NCVC		mpɪt
@@ -699,7 +657,6 @@ mp	ʊ	t				NCVC		mpʊt
 pm	ɛ	t				CNVC		pmɛt
 mp	ɛ	t				NCVC		mpɛt
 pm	æ	t				CNVC		pmæt
-mp	æ	t				NCVC		mpæt
 pn	iː	t				CNVC		pniːt
 np	iː	t				NCVC		npiːt
 pn	uː	t				CNVC		pnuːt
@@ -722,7 +679,6 @@ pn	ɛ	t				CNVC		pnɛt
 np	ɛ	t				NCVC		npɛt
 pn	æ	t				CNVC		pnæt
 np	æ	t				NCVC		npæt
-pm	iː	k				CNVC		pmiːk
 mp	iː	k				NCVC		mpiːk
 pm	uː	k				CNVC		pmuːk
 mp	uː	k				NCVC		mpuːk
@@ -731,7 +687,6 @@ mp	eɪ	k				NCVC		mpeɪk
 pm	oʊ	k				CNVC		pmoʊk
 mp	oʊ	k				NCVC		mpoʊk
 pm	ɑ	k				CNVC		pmɑk
-mp	ɑ	k				NCVC		mpɑk
 pm	aɪ	k				CNVC		pmaɪk
 mp	aɪ	k				NCVC		mpaɪk
 pm	aʊ	k				CNVC		pmaʊk
@@ -851,14 +806,11 @@ nt	ɪ	k				NCVC		ntɪk
 tn	ʊ	k				CNVC		tnʊk
 nt	ʊ	k				NCVC		ntʊk
 tn	ɛ	k				CNVC		tnɛk
-nt	ɛ	k				NCVC		ntɛk
 tn	æ	k				CNVC		tnæk
 nt	æ	k				NCVC		ntæk
 km	iː	p				CNVC		kmiːp
 mk	iː	p				NCVC		mkiːp
-km	uː	p				CNVC		kmuːp
 mk	uː	p				NCVC		mkuːp
-km	eɪ	p				CNVC		kmeɪp
 mk	eɪ	p				NCVC		mkeɪp
 km	oʊ	p				CNVC		kmoʊp
 mk	oʊ	p				NCVC		mkoʊp
@@ -909,8 +861,6 @@ mk	oʊ	t				NCVC		mkoʊt
 km	ɑ	t				CNVC		kmɑt
 mk	ɑ	t				NCVC		mkɑt
 km	aɪ	t				CNVC		kmaɪt
-mk	aɪ	t				NCVC		mkaɪt
-km	aʊ	t				CNVC		kmaʊt
 mk	aʊ	t				NCVC		mkaʊt
 km	ɪ	t				CNVC		kmɪt
 mk	ɪ	t				NCVC		mkɪt
@@ -971,7 +921,6 @@ nb	uː	p				NCVC		nbuːp
 bn	eɪ	p				CNVC		bneɪp
 nb	eɪ	p				NCVC		nbeɪp
 bn	oʊ	p				CNVC		bnoʊp
-nb	oʊ	p				NCVC		nboʊp
 bn	ɑ	p				CNVC		bnɑp
 nb	ɑ	p				NCVC		nbɑp
 bn	aɪ	p				CNVC		bnaɪp
@@ -980,7 +929,6 @@ bn	aʊ	p				CNVC		bnaʊp
 nb	aʊ	p				NCVC		nbaʊp
 bn	ɪ	p				CNVC		bnɪp
 nb	ɪ	p				NCVC		nbɪp
-bn	ʊ	p				CNVC		bnʊp
 nb	ʊ	p				NCVC		nbʊp
 bn	ɛ	p				CNVC		bnɛp
 nb	ɛ	p				NCVC		nbɛp
@@ -1101,7 +1049,6 @@ nd	iː	p				NCVC		ndiːp
 dn	uː	p				CNVC		dnuːp
 nd	uː	p				NCVC		nduːp
 dn	eɪ	p				CNVC		dneɪp
-nd	eɪ	p				NCVC		ndeɪp
 dn	oʊ	p				CNVC		dnoʊp
 nd	oʊ	p				NCVC		ndoʊp
 dn	ɑ	p				CNVC		dnɑp
@@ -1134,11 +1081,9 @@ dm	aʊ	t				CNVC		dmaʊt
 md	aʊ	t				NCVC		mdaʊt
 dm	ɪ	t				CNVC		dmɪt
 md	ɪ	t				NCVC		mdɪt
-dm	ʊ	t				CNVC		dmʊt
 md	ʊ	t				NCVC		mdʊt
 dm	ɛ	t				CNVC		dmɛt
 md	ɛ	t				NCVC		mdɛt
-dm	æ	t				CNVC		dmæt
 md	æ	t				NCVC		mdæt
 dn	iː	t				CNVC		dniːt
 nd	iː	t				NCVC		ndiːt
@@ -1183,7 +1128,6 @@ md	ʊ	k				NCVC		mdʊk
 dm	ɛ	k				CNVC		dmɛk
 md	ɛ	k				NCVC		mdɛk
 dm	æ	k				CNVC		dmæk
-md	æ	k				NCVC		mdæk
 dn	iː	k				CNVC		dniːk
 nd	iː	k				NCVC		ndiːk
 dn	uː	k				CNVC		dnuːk
@@ -1195,7 +1139,6 @@ nd	oʊ	k				NCVC		ndoʊk
 dn	ɑ	k				CNVC		dnɑk
 nd	ɑ	k				NCVC		ndɑk
 dn	aɪ	k				CNVC		dnaɪk
-nd	aɪ	k				NCVC		ndaɪk
 dn	aʊ	k				CNVC		dnaʊk
 nd	aʊ	k				NCVC		ndaʊk
 dn	ɪ	k				CNVC		dnɪk
@@ -1203,7 +1146,6 @@ nd	ɪ	k				NCVC		ndɪk
 dn	ʊ	k				CNVC		dnʊk
 nd	ʊ	k				NCVC		ndʊk
 dn	ɛ	k				CNVC		dnɛk
-nd	ɛ	k				NCVC		ndɛk
 dn	æ	k				CNVC		dnæk
 nd	æ	k				NCVC		ndæk
 gm	iː	p				CNVC		gmiːp
@@ -1265,8 +1207,6 @@ mg	aɪ	t				NCVC		mgaɪt
 gm	aʊ	t				CNVC		gmaʊt
 mg	aʊ	t				NCVC		mgaʊt
 gm	ɪ	t				CNVC		gmɪt
-mg	ɪ	t				NCVC		mgɪt
-gm	ʊ	t				CNVC		gmʊt
 mg	ʊ	t				NCVC		mgʊt
 gm	ɛ	t				CNVC		gmɛt
 mg	ɛ	t				NCVC		mgɛt

@@ -6,6 +6,7 @@ Subsequent steps will remove actual lexical items and balance the stimuli
 according to our assumptions about grammaticality.
 """
 
+import argparse
 import csv
 import dataclasses
 import itertools
@@ -145,7 +146,15 @@ class Disyllable:
 
 
 def _borowsky_test(monosyllable: Monosyllable) -> bool:
+    # Borowsky claims that a tense nucleus cannot be followed by angma.
     return monosyllable.nucleus in TENSE_NUCLEI and monosyllable.coda == "ŋ"
+
+def _npa_test(disyllable: Disyllable) -> bool:
+    # It is impossible to tell from a transcription if NPA has obtained when
+    # the coda is /n/ and the onset is a velar, since both assimilated 
+    # /ŋk, ŋg/ and unassimilated /nk, ng/ would presumably be spelled the
+    # same.
+    return disyllable.syl1.coda == "n" and disyllable.syl2.onset in ["k", "g"]
 
 
 def _monosyllables() -> Iterator[Monosyllable]:
@@ -229,12 +238,16 @@ def _disyllables() -> Iterator[Disyllable]:
                             yield Disyllable(syl1, syl2)
 
 
-def main():
+def main(args: argparse.Namespace) -> None:
     cl = citylex.read_textproto("citylex.textproto")
     lexicon: Set[str] = set()
     for entry in cl.entry.values():
         for pron in entry.wikipron_us_pron:
             lexicon.add(pron.replace(" ", ""))
+    if args.extra_lexicon:
+        with open(args.extra_lexicon, "r") as source:
+            for line in source:
+                lexicon.add(line.rstrip())
     logging.info(f"{len(lexicon):,} lexicon entries")
     with open(MONOSYLLABLES, "w") as sink:
         tsv_writer = csv.writer(sink, delimiter="\t")
@@ -254,6 +267,8 @@ def main():
         tsv_writer.writerow(COLUMNS)
         filtered = 0
         for entry in _disyllables():
+            if _npa_test(entry):
+                continue
             # Inefficient surely, but harmless.
             if any(
                 part in lexicon
@@ -274,4 +289,6 @@ def main():
 
 if __name__ == "__main__":
     logging.basicConfig(format="%(levelname)s: %(message)s", level="INFO")
-    main()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--extra-lexicon", help="Optional list of pronunciations (one per line) to exclude")
+    main(parser.parse_args())

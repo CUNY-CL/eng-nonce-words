@@ -45,7 +45,7 @@ SEED = 1568
 MONOSYLLABLES = "monosyllables.tsv"
 DISYLLABLES = "disyllables.tsv"
 LIST_PATH = "eng-list-%02d.tsv"
-N_LISTS = 16  # We can make a lot of these, so why not.
+N_LISTS = 12  # We can make a lot of these, so why not.
 # Because lexical filtration is not a sure thing, we will have to cannibalize
 # examples so we need more lists than we plan to run.
 
